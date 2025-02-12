@@ -1,0 +1,593 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 125px;
+    width: 100%;
+    border: 0px solid red;
+    box-shadow: 2px 0px 10px red;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: black;
+    overflow: hidden;
+
+    
+}
+
+.subhead {
+    height: 70px;
+    width: 100%;
+    border: 0px solid red;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    background-color: black;
+    flex-wrap: wrap;
+    overflow: hidden;
+    
+}
+
+.boxstyle {
+    height: 40px;
+    width: 100px;
+    border:0px solid red; 
+    text-align: center;
+    padding: 2px;
+    font-family: system-ui;
+    font-size: 15px;
+}
+
+.subhead a {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.subhead a:hover {
+    color: aqua;
+    text-shadow: 5px 2px 20px white;
+    border-bottom: 2px solid aqua;
+}
+
+.bstlogo {
+    height: 110px;
+    width: 400px;
+    border: 0px solid red;;
+    background-image:url(@image/bstlogo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 5px;
+   
+    
+}
+
+.Photo-Showcase{
+    height: 110px;
+    width: 300px;
+    border: 0px solid red;;
+    margin: 5px;
+   margin-right:5px;
+    justify-content: center;
+    
+   
+}
+
+.btn {
+    height: 40px;
+    width: 200px;
+    font-family: system-ui;
+    font-size: 18px;
+    border-radius: 20px;
+    border:0px solid red;;
+    outline:none;
+  
+    cursor: pointer;
+    margin:5px;
+    background-color:aqua;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+}
+
+.header .Photo-Showcase .btn:hover{
+    background-color: #ff9045;
+    border:none;
+    outline:none;
+    color:white;
+}
+
+
+.main {
+    height: 1250px;
+    width: 100%;
+
+    
+    border: 0px solid red;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: center;
+    padding:5px;
+}
+
+.bstboard {
+    height:350px;
+    width:530px;
+    
+    margin-top: 50px;
+    margin:5px;
+}
+
+.homeimg {
+    
+   margin: 5px;
+
+   height:300px;
+   width:550px
+}
+
+.line1 {
+    height: 30px;
+    width: 100%;
+    border: 0px solid red;;
+    background-color: rgb(39, 39, 39);
+}
+
+.line2 {
+    height: 30px;
+    width: 100%;
+    border: 0px solid red;;
+    background-color: rgb(51, 51, 51);
+}
+
+.line3 {
+    height: 30px;
+    width: 100%;
+    border: 0px solid red;;
+    background-color: rgb(102, 102, 102);
+}
+
+.home-button a {
+    height: 30px;
+    width: 40px;
+    border:0px solid red;
+    border-radius: 10px;
+    position: fixed;
+    left: 20px;
+    bottom: 30px;
+    font-size: 20px;
+    color: white;
+    background: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: system-ui;
+    text-align: center;
+}
+
+.page2 {
+    height: 1100px;
+    width: 100%;
+    border:0px solid red;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.welcometobst {
+    height: 120px;
+    width: 100%;
+    border: 0px solid red;
+    text-align: start;
+}
+
+.infobox1 {
+    height: 100%;
+    width: 100%;
+    border: 0px solid red;
+    text-align: start;
+    padding: 20px;
+}
+
+.page2 .welcometobst p {
+    
+    font-family: system-ui;
+    color: rgb(240, 123, 13);
+    
+
+    font-size:25px;
+    font-weight: 600;
+}
+
+.page2 .infobox1 p {
+    font-size:18px;
+    font-family: system-ui;
+    color: black;
+}
+
+.box2 {
+    height: 500px;
+    width: 600px;
+    margin-top: 5px;
+    border: 0px solid red;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.welcomeimage {
+    
+    margin-top: 10px;
+    
+    height:400px;
+    width:400px;
+}
+
+.page3 {
+    height: 1450px;
+    width: 100%;
+    border:0px solid red;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.whybst {
+    font-size:25px;
+        font-weight: 700;
+    height: 200px;
+    width: 100%;
+    border: 0px solid red;
+    text-align: center;
+    font-family: system-ui;
+    
+    color: rgb(240, 123, 13);
+    padding: 5px;
+    font-weight: bold;
+    
+
+}
+
+.page3 .whybst p {
+    font-size:20px;
+        font-weight: 500;
+    
+    font-family: system-ui;
+   
+    color: black;
+}
+
+.page3-box1 {
+    height: 550px;
+    width: 100%;
+    border: 0px solid red;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+}
+
+.page3-box2 {
+    height: 550px;
+    width: 100%;
+    border: 0px solid red;
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+}
+
+.whybstbox {
+    height: 240px;
+    width: 270px;
+    border: 0px solid red;
+    border-radius: 15px;
+    margin:10px;
+    text-align: center;
+    padding: 12px;
+    font-family: system-ui;
+    font-size: 15px;
+    font-weight: 500;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    box-shadow: 2px 0px 20px rgb(228, 167, 146);
+    cursor: pointer;
+}
+
+
+.parapage3 {
+    font-size: 15px;
+}
+
+.page3 .page3-box1 .whybstbox:hover {
+    scale: 1.1;
+    background-color: aqua;
+}
+
+.page3 .page3-box2 .whybstbox:hover {
+   scale:1.1;
+    background-color: aqua;
+}
+
+.page4 {
+    height: 1450px;
+    width: 100%;
+    border: 0px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.aboutbstbox {
+    height: 600px;
+    width: 600px;
+    border: 0px solid red;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.page4 .aboutbstbox .aboutbst {
+    font-size: 25px;
+    font-family: system-ui;
+    color: rgb(240, 123, 13);
+    font-weight: 500;
+}
+
+.page4 .aboutbstbox .aboutbstinfo {
+    font-size: 18px;
+    font-family: system-ui;
+    color: black;
+    overflow: hidden;
+    font-weight: 400px;
+}
+
+.aboutbstimg {
+    margin-top: 10px;
+   
+
+    height:480px;
+    width:480px;
+}
+
+.page5 {
+    height: 1400px;
+    width: 100%;
+    border: 0px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.courseimg {
+    margin-right: 10px;
+    margin-top: 10px;
+    border:0px solid red;
+
+    height:200px;
+    width:380px;
+    
+}
+
+.ourcoursesbox {
+    margin-top: 10px;
+    height: 600px;
+    width: 600px;
+    border: 0px solid red;
+    text-align: start;
+    padding: 5px;
+}
+
+.page5 .ourcoursesbox .ourcourses {
+    font-size: 30px;
+    font-family: system-ui;
+    color: rgb(240, 123, 13);
+    font-weight: 500;
+}
+
+.page5 .ourcoursesbox .ourcoursesinfo {
+    font-size: 18px;
+    font-family: system-ui;
+    color: black;
+    overflow: hidden;
+    font-weight: 400;
+}
+
+.slogan {
+    width: 100%;
+    height: 100px;
+    border: 0px solid red;
+    color: white;
+    font-size: 60px;
+    font-family: system-ui;
+    background-color: rgb(245, 205, 192);
+    text-align: center;
+    padding: 5px;
+}
+
+.page6 {
+    height: 900px;
+    width: 100%;
+    border: 0px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    padding: 5px;
+    background-color:rgb(245, 228, 214);
+    align-items: start;
+}
+
+.contactuss {
+    height: 200px;
+    width: 100%;
+    border:0px solid red;
+        font-family: system-ui;
+    font-size: 40px;
+    color: rgb(226, 159, 121);
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    background: transparent;
+    padding: 60px;
+}
+
+.sendus {
+    font-size: 28px;
+    font-family: system-ui;
+    font-weight: 500;
+    color: black;
+    margin-top: 10px;
+    
+    
+    
+}
+
+
+.textbox {
+    height: 40px;
+    width: 330px;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: system-ui;
+    padding-left: 5px;
+    margin: 20px;
+    outline: none;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0.5px solid gray;
+    margin-left: 20px;
+    background: transparent;
+  
+}
+
+.page6 .textbox:hover {
+    box-shadow: 2px 0px 20px rgb(228, 167, 146);
+}
+
+.submitbtn {
+    height: 50px;
+    width: 250px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: system-ui;
+    margin: 30px;
+    outline: none;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0.5px solid gray;
+    background-color: black;
+    color: white;
+
+}
+
+
+.page6 .submitbtn:hover {
+    background-color: rgb(240, 123, 13);
+    color: white;
+    border:none;
+}
+
+.mailandaddress {
+    font-family: system-ui;
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+}
+
+.page7 {
+    height: 600px;
+    width: 100%;
+    border:0px solid red;
+    display: flex;
+    padding:10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: gray;
+    overflow:hidden;
+}
+
+.bottominfo1 {
+    height: 290px;
+    width: 600px;
+    border: 0px solid red;
+    
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+}
+
+.bottominfo2 {
+    height: 300px;
+    width: 320px;
+    border: 0px solid red;
+    padding: 10px;
+    
+}
+
+.bottominfo1-2 {
+    height: 260px;
+    width: 120px;
+    border: 0px solid red;
+    padding: 0px;
+}
+
+.page7 .bottominfo1 a {
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.menu{
+    font-family: system-ui;
+}
+
+.bottomheadline {
+    font-family: system-ui;
+    font-size: 20px;
+}
+.phonenumber{
+    color:white;
+    font-family: system-ui;
+}
+.phonenumber1{
+    color:black;
+    font-family: system-ui;
+}
+.pawan{
+    height:40px;
+    width:900px;
+    border:0px solid red;
+    text-align: center;
+    color:rgb(58, 57, 57);
+font-weight: 400;
+    font-size: 18px;
+    font-family:system-ui;
+    margin-left: 20px;
+    
+
+}
