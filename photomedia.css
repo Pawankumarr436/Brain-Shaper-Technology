@@ -1,0 +1,23 @@
+@media(min-width:728px){
+    
+    .box{
+        height:400px;
+        width:550px;
+        border-radius: 40px;
+        
+    }
+    
+}
+@media(min-width:1814px){
+    .page1{
+        height:2300px;
+        padding:50px;
+    }
+}
+@media(max-width:531px){
+    .box{
+        height:220px;
+        width:350px; 
+        margin:5px;
+    }
+}
