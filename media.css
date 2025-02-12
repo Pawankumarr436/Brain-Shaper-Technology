@@ -1,0 +1,319 @@
+@media(min-width:600px){
+    .boxstyle {
+        height: 60px;
+        width: 140px;
+    }
+    .bstlogo{
+        height:140px;
+    }
+    .Photo-Showcase{
+        height:140px;
+    }
+    .header{
+        height:150px;
+    }
+    .subhead{
+        height:80px;
+    }
+}
+@media(min-width:735px){
+    .bstboard{
+        height:550px;
+        width:780px;
+    }
+    .homeimg{
+        height:550px;
+         width:800px;
+    }
+}
+@media(min-width:1631px){
+    .main{
+        height: 750px;
+        width: 100%;
+
+    }
+}
+@media(max-width:735px){
+    .main{
+        height:700px;
+    }
+   
+    
+}
+@media(max-width:408px){
+    .boxstyle {
+        height:40px;
+        width:90px;
+        justify-content: start;
+    }
+    .welcomeimage{
+        margin-top:10px;
+    }
+    .box2{
+        margin-top:5px;
+    }
+    .page2{
+        height:1000px;
+    }
+    .ourcoursesbox{
+        width:550px;
+    }
+    
+    
+
+}
+@media (max-width:491px){
+    .bstboard{
+        width:420px;
+    }
+    .homeimg{
+        width:400px;
+    }
+    .bstlogo{
+        width:500px;
+    }
+    .Photo-Showcase{
+        width:200px;
+    }
+    .btn{
+        height:30px;
+        width:100px;
+    }
+    
+
+}
+@media (min-width:707px){
+    .welcomeimage{
+        height:600px;
+        width:600px;
+
+    }
+}
+@media (min-width:1265px){
+    .box2{
+        margin-top:150px;
+        
+    }
+    
+}
+@media(min-width:1214px){
+    .page2{
+        height:900px;
+    }
+    .box2{
+        height:600px;
+    }
+   .page2 .welcometobst p{
+    font-size: 35px;
+    font-weight: bold;
+        
+    }
+    .page2 .infobox1 p{
+        font-size: 30px;
+    
+    
+    }
+    .page4 .aboutbstbox{
+        margin-top:150px;
+    }
+    .page4 .aboutbstbox .aboutbst{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .page4 .aboutbstbox .aboutbstinfo{
+        font-size: 22px;
+        font-weight:600px ;
+    }
+}
+@media (min-width:800px){
+    .whybst{
+        font-weight: bold;
+        font-size: 30px;
+    }
+     .page3 .whybst p{
+        font-size: 50px;
+        font-weight:bold;
+     }
+     .ourcoursebox{
+        margin-top:100px;
+    
+     }
+     .page5 .ourcoursebox .ourcourse{
+        font-size:35px;
+        font-weight: 600;
+     }
+     .page5 .ourcoursesbox .ourcoursesinfo{
+        font-size: 22px;
+        font-weight: 500px;
+     }
+}
+
+@media (max-width:530px){
+    .whybst{
+        font-size:18px;
+        font-weight: 700;
+    }
+    .page3 .whybst p{
+        font-size: 25px;
+        font-weight: 500;
+    }
+}
+@media (min-width:1008px){
+    .whybstbox{
+        height:250px;
+        width:300px;
+        margin:10px;
+        border-radius: 20px;
+        font-size: 18px;
+        padding:20px;
+    }
+}
+@media (max-width:800px){
+    .whybstbox{
+        height:240px;
+        width:250px;
+        margin:5px;
+        border-radius: 12px;
+        font-size: 12px;
+        padding:8px;
+    }
+}
+    @media (min-width:888px){
+    .page3{
+        height:900px;
+    }
+    .page3-box1{
+        height:300px;
+
+    }
+    .page3-box2{
+        height:300px;
+
+    }
+}
+@media(max-width:538px){
+    .page3-box1{
+        height:800px;
+
+    }
+    .page3-box2{
+        height:800px;
+    }
+    .whybst{
+        height:100px;
+    }
+    .page3{
+        height:1800px;
+    }
+}
+@media (min-width:1334px){
+    .page4{
+        height:900px;
+    }
+}
+@media (min-width:552px){
+    .aboutbstimg{
+        height:700px;
+        width:700px;
+        margin-top:100px;
+    }
+}
+@media (max-width:500px){
+    .page4{
+        height:1100px;
+    }
+}
+@media (min-width:1264px){
+    .page5{
+        height:900px;
+    }
+}
+@media (min-width:691px){
+    .courseimg{
+        margin-top:150px;
+        height:400px;
+        width:600px;
+    }
+}
+@media(max-width:691px){
+    .page5{
+        height:900px;
+    }
+}
+@media (max-width:1069px){
+    .slogan{
+        height:80px;
+        font-size:40px;
+        padding:3px;
+    }
+}
+@media (max-width:718px){
+    .slogan{
+        height:60px;
+        font-size:25px;
+        padding:2px;
+    }
+}
+@media (max-width:1069px){
+    .slogan{
+        height:40px;
+        font-size:20px;
+        padding:2px;
+    }
+}
+
+@media (min-width:552px){
+    .sendus{
+        font-size:30px;
+        font-weight: 600;
+
+    }
+    .textbox{
+        height:50px;
+        width:500px;
+        font-size: 15px;
+        
+    }
+}
+@media (min-width:1005px){
+    .bottominfo1{
+        height:290px;
+        width:600px;
+        margin:20px;
+
+    }
+    .bottominfo2{
+        height:300px;
+        width:320px;
+        
+    }
+    .page7 .bottominfo1 a{
+        font-weight: 15px;
+    }
+    .bottomheadline{
+        font-size: 30px;
+
+    }
+    .pawan{
+        height:400px;
+        width:900px;
+        font-size: 18px;
+    }
+}
+@media(min-width:944px){
+    .page7{
+        height:400px;
+    }
+}
+@media(max-width:944px){
+    .bottominfo1-2{
+        width:100%;
+        margin-left:20px;
+        margin-top:0px;
+    }
+    .bottominfo2{
+        width:100%;
+        height:250px;
+        margin-top:0px;
+    }
+}
